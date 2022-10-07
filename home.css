@@ -1,0 +1,32 @@
+body{
+
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#page-heading{
+
+    margin-top: 25px;
+    color : gray;
+}
+#contacts-list-container ul{
+    padding: 0;
+    list-style: none;
+}
+.contact{
+    padding: 3px 5px;
+    border: 1px solid white;
+    background-color: blue;
+    box-shadow: 1px 1px 1px 1px lightgray;
+    color: white;
+    display: flex;
+}
+
+.contact .details{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 20%;
+}
